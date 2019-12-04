@@ -22,6 +22,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 500px;
+  max-height: 300px;
   justify-content: center;
   align-items: center;
   background-color: ${color.grey};
@@ -37,7 +38,7 @@ const HeaderCard = styled.div`
   margin: 0;
 `
 const ImageCard = styled.img`
-  width: 100%;
+  max-width: 100%;
 `
 const Title = styled.h1`
   font-size: 24px;

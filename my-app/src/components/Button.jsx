@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { color } from '../themes'
 
-const Button = ({ variant, children }) => {
+const Button = ({ variant, children, onClick }) => {
   return(
-    <StyledButton>{children}</StyledButton>
+    <StyledButton onClick={onClick}>{children}</StyledButton>
   )
 
 }
